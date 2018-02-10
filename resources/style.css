@@ -24,10 +24,8 @@
 }
 
 .navbar {
-  display: inline-block;
+  display: inline-flex;
   padding-right: 60px;
-  /* position: 0px auto; */
-  /* justify-content: space-between; */
 }
 
 /* Body Content Section */
@@ -50,31 +48,74 @@
   align-items: flex-start;
   width: 630px;
   height: 100%;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
   border: 1px solid black;
 }
 
 .mother {
   border: 1px solid black;
+  background-image: url("images/champagne-pour.png");
+  display: flex;
+  min-height: 300px;
+  min-width: 620px;
+}
+
+.mother span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
 }
 
 .monument-valley {
   border: 1px solid black;
+  margin-top: 10px;
 }
 
 .orca {
   border: 1px solid black;
+  margin-top: 10px;
 }
 
 .earth {
   border: 1px solid black;
+  margin-top: 10px;
+  background-image: url("images/girl-by-post.png");
+  display: flex;
+  min-height: 300px;
+  min-width:629px;
+  background-repeat: repeat-x;
+}
+
+.earth span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
 .burger {
   border: 1px solid black;
+  margin-top: 10px;
 }
 
 .research {
   border: 1px solid black;
+  margin-top: 10px;
+  background-image: url("images/cameraman.png");
+  display: flex;
+  min-height: 300px;
+  min-width:629px;
+  background-repeat: repeat-x;
+}
+
+.research span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
 /* Medium Column Section */
@@ -84,6 +125,9 @@
   align-items: flex-start;
   width: 300px;
   height: 100%;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
   border: 1px solid black;
 }
 
@@ -93,10 +137,23 @@
 
 .cats {
   border: 1px solid black;
+  background-image: url("images/cat.png");
+  display: flex;
+  min-height: 300px;
+  min-width: 299px;
+  margin-top: 10px;
+}
+
+.cats span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
 .brooklyn {
   border: 1px solid black;
+  margin-top: 10px;
 }
 
 /* Small Column Section */
@@ -106,6 +163,9 @@
   align-items: flex-start;
   width: 240px;
   height: 100%;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
   border: 1px solid black;
 }
 
@@ -115,4 +175,5 @@
 
 .news-bites {
   border: 1px solid black;
+  margin-top: 10px;
 }
